@@ -1,3 +1,11 @@
 ul {
     list-style: none;
 }
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    color: orange;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid orangered;
+}

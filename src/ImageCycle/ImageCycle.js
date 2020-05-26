@@ -11,7 +11,7 @@ export default class ImageCycle extends Component {
                 showArrows={false} 
                 showStatus={true}
                 showThumbs={false}
-                showArrows={false} 
+                showArrows={true} 
                 showIndicators={false}
             >
                 <div><img src={require('../images/1-homeScreen.png')} /></div>
@@ -32,28 +32,3 @@ export default class ImageCycle extends Component {
         )
     }
 }
-
-// <div>
-// <img src={require('../images/1-homeScreen.png')} />
-// </div>
-
-// <Carousel 
-// // showArrows={true} 
-// // onChange={onChange} 
-// // onClickItem={onClickItem} 
-// // onClickThumb={onClickThumb}
-// >
-// <div>
-//     <img src={require('../images/1-homeScreen.png')} />
-// </div>
-
-// <div>
-//     <img src={require('../images/2-editBills.png')} />
-// </div>
-
-// <div>
-//     <img alt="" src="images/3-editBillsExpandedSettings.png" />
-//     <p className="legend">Legend 1</p>
-// </div>
-
-// </Carousel>
