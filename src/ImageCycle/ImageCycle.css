@@ -1,5 +1,9 @@
-ul {
+/* ul {
     list-style: none;
+} */
+
+.carousel.carousel-slider {
+    position: absolute;
 }
 
 .carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
